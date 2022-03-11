@@ -1,0 +1,201 @@
+body {
+	background: -webkit-linear-gradient(left, #4d52ff, #7C20E6);
+	background: -o-linear-gradient(right, #4d52ff, #7C20E6);
+	background: -moz-linear-gradient(right, #4d52ff, #7C20E6);
+	background: linear-gradient(to right, #4d52ff, #7C20E6);
+	background-color: #4d52ff;
+}
+
+/* card */
+.card {
+	margin-left: -65px;
+	float: none;
+	margin-bottom: 10px;
+}
+
+.set_image {
+	width: 100%;
+	height: 150px;
+}
+
+.set_imageA {
+	height: 400px;
+	width: 100%;
+}
+
+
+/* navbar  */
+.navbar{
+	background: -webkit-linear-gradient(left, #4d52ff, #7C20E6);
+	background: -o-linear-gradient(right, #4d52ff, #7C20E6);
+	background: -moz-linear-gradient(right, #4d52ff, #7C20E6);
+	background: linear-gradient(to right, #4d52ff, #7C20E6);
+	background-color: #7C20E6;
+}
+
+.navbar button {
+	background: -webkit-linear-gradient(left, #7C20E6, #4d52ff);
+	background: -o-linear-gradient(right, #7C20E6, #4d52ff);
+	background: -moz-linear-gradient(right, #7C20E6, #4d52ff);
+	background: linear-gradient(to right, #7C20E6, #4d52ff);
+	background-color: #7C20E6;
+}
+
+.navbar-brand {
+	font-family: Knewave;
+	font-size: 28px;
+	margin-left: 0 auto;
+}
+
+.navbar img {
+	border-radius: 50%;
+}
+
+.container2 h1{
+	color: white;
+	margin-top: 50px;
+	font-weight: 200;
+	font-size: 25px;
+}
+
+.container2 h1 span{
+	font-weight: 500;
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+	font-size: 25px;
+}
+
+.transparant {
+	opacity: 50%;
+}
+
+.footer {
+	margin-top: 200px;
+	font-size: 14px;
+}
+
+.bckg {
+	background-color: black;
+}
+
+.tbformatorder {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.metode {
+	font-size: 15px;
+}
+
+.txtclr {
+	color: black;
+}
+
+/* splash screen */
+.intro {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #7335f0;
+  transition: 1s;
+}
+
+.logo-header {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family: "Knewave", sans-serif;
+  font-size: 24px;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+  position: relative;
+  display: inline-block;
+  bottom: -20px;
+  opacity: 0;
+}
+
+.logo.active {
+  bottom: 0;
+  opacity: 1;
+  transition: ease-in-out 0.5s;
+}
+
+.logo.fade {
+  bottom: 150px;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+
+/* UTILITY */
+.tombol {
+	background: -webkit-linear-gradient(left, #7C20E6, #4d52ff);
+	background: -o-linear-gradient(right, #7C20E6, #4d52ff);
+	background: -moz-linear-gradient(right, #7C20E6, #4d52ff);
+	background: linear-gradient(to right, #7C20E6, #4d52ff);
+	background-color: #7C20E6;
+	text-transform: uppercase;
+	border-radius: 40px;
+}
+	
+/* DEKSTOP VERSION */
+@media (min-width:  992px) {
+		.nav-link {
+		text-transform: uppercase;
+		margin-right: 30px;
+	}
+
+	.container2 h1 {
+		font-size: 52px;
+	}
+
+	.container2 h1 span {
+		font-size: 52px;
+	}
+
+	.card {
+		margin: 0 auto;
+	}
+
+	.txt {
+		margin-left: auto;
+		margin-right: auto;
+		width: 600px;
+	}
+
+	.tbformatorder {
+		width: 200px;
+		margin-left: 327px;
+	}
+
+	.metode {
+		margin-top: -190px;
+		margin-left: 600px;
+	}
+
+	.jar {
+		margin-top: 30px;
+	}
+
+	.nav-jarak {
+		margin-left: 10px;
+	}
+
+	.set_imageA {
+		height: 600px;
+		width: 30%;
+	}
+
+	.logo-header {
+    	font-size: 64px;
+  }
+	
+}
+
+
+
